@@ -9,13 +9,13 @@ obj-$(CONFIG_BLOCK) := bio.o elevator.o blk-core.o blk-tag.o blk-sysfs.o \
 			blk-mq-sysfs.o blk-mq-cpu.o blk-mq-cpumap.o ioctl.o \
 			genhd.o scsi_ioctl.o partition-generic.o ioprio.o \
 			partitions/
+			
 obj-$(CONFIG_HISI_BLK_CORE)     += hisi-blk-core.o hisi-blk-settings.o hisi-blk-ft.o hisi-blk-sysfs.o
 obj-$(CONFIG_HISI_BLK_MQ) += hisi-blk-mq-tag.o
 obj-$(CONFIG_HISI_BLK_MQ_DUMP) += hisi-blk-mq-dump.o
 obj-$(CONFIG_HISI_IO_LATENCY_TRACE) += hisi-blk-latency.o
 obj-$(CONFIG_HISI_MANUAL_BKOPS)     += hisi-bkops-core.o hisi-bkops-sysfs.o
 obj-$(CONFIG_HISI_MQ_DISPATCH_DECISION)	+= hisi-blk-mq-dispatch-strategy.o
-obj-$(CONFIG_IOSCHED_ZEN)	+= zen-iosched.o
 obj-$(CONFIG_HISI_BLK_FLUSH_REDUCE) += hisi-blk-flush.o
 obj-$(CONFIG_BOUNCE)	+= bounce.o
 obj-$(CONFIG_BLK_DEV_BSG)	+= bsg.o
@@ -25,6 +25,10 @@ obj-$(CONFIG_BLK_DEV_THROTTLING)	+= blk-throttle.o
 obj-$(CONFIG_IOSCHED_NOOP)	+= noop-iosched.o
 obj-$(CONFIG_IOSCHED_DEADLINE)	+= deadline-iosched.o
 obj-$(CONFIG_IOSCHED_ROW)	+= row-iosched.o
+obj-$(CONFIG_IOSCHED_SIOPLUS)	+= sioplus-iosched.o
+obj-$(CONFIG_IOSCHED_ZEN)          	+= zen-iosched.o
+obj-$(CONFIG_IOSCHED_SIO)       	+= sio-iosched.o
+obj-$(CONFIG_IOSCHED_TRIPNDROID)	+= tripndroid-iosched.o
 obj-$(CONFIG_IOSCHED_CFQ)	+= cfq-iosched.o
 
 obj-$(CONFIG_BLOCK_COMPAT)	+= compat_ioctl.o
