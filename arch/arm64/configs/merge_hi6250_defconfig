@@ -3,6 +3,8 @@
 # Linux/arm64 4.4.23 Kernel Configuration
 #
 
+# Elemental Kernel
+CONFIG_IOSCHED_ZEN=y
 # CONFIG_CPU_FREQ_DEFAULT_GOV_BLU_ACTIVE is not set
 CONFIG_CPU_FREQ_GOV_BLU_ACTIVE=y
 
