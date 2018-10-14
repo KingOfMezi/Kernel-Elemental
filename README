@@ -65,7 +65,7 @@ curl https://github.com/Dil3mm4/labyrinth_kernel_prague/commit/4bcf6b58359ac8c94
 
 * Where is Image file?
 go to **out/arch/arm64/boot/** and inside that folder will find an image called **Image**
-
+image: https://drive.google.com/file/d/1TOwecXRzl8LSKcyN9nhEHvuik3i6fbMC/view
 
 Make clean
 To recompile you just have to execute "./clean.sh" to clean the previous compilation and repeat again. "./build.sh"... ..enjoy..
