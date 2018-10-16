@@ -388,5 +388,12 @@ config QORIQ_CPUFREQ
 	  This adds the CPUFreq driver support for Freescale QorIQ SoCs
 	  which are capable of changing the CPU's frequency dynamically.
 
+config LAZYPLUG
+	bool "Conservative hotplugging for generic devices"
+	default n
+	help
+	  This enables the conservative hotplugging, lazyplug by arter97
+	  based on intelli_plug. Refer to the comments for more info.
+
 endif
 endmenu
