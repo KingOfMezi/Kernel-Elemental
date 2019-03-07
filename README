@@ -4,6 +4,9 @@ Full Video https://www.youtube.com/watch?v=Vn-xQQ5NB7w
 ## Compatibility
 *Android 7.0 And Android 8
 
+#how-to-install-latest-gcc-on-ubuntu-lts.txt
+https://gist.github.com/application2000/73fd6f4bf1be6600a2cf9f56315a2d91
+
 *Update GCC 6.1.1 code:
 
 sudo apt-get update && \
